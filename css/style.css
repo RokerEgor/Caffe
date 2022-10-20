@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background: url('../img/fon.jpg') no-repeat center top;
+    padding-bottom: 164px;
+}
+.menu{
+    margin-left: 500px;
+    margin-top: -180px;
+}
+.menu li{
+    list-style-type:none;
+    display: inline-block;
+    margin-right: 62px;
+    margin-top: 115px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu a:hover{
+    color:#559F65;
+}
+.logo{
+    margin-left: 126px;
+    margin-top: 85px;
+    overflow: hidden;
+}
+.liv{
+    margin-left: 879px;
+    margin-top: -71px;
+}
+.pfon{
+    margin-left: 898px;
+    margin-top: -90px;
+}
+.nomodule{
+    margin-left: 934px;
+    margin-top: -27px;
+}
+.nomodule a{
+    text-decoration: none;
+    color: #fff;
+}
+.nomodule a:hover{
+    color:#559F65;
+}
+.tex{
+    color: #fff;
+    margin-left: 896px;
+}
+.hed-button{
+    margin-left: 1170px;
+    margin-top: -85px;
+}
+.hed-button button{
+    border: none;
+    width: 114.73px;
+    height: 63px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #559F65;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.hed-button button:hover{
+    color:#559F65;
+    background: #fff;
+}
+.tit h2{
+    color:#fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 173px;
+    margin-left: 119px;
+}
+.tit h1{
+    color: #559F65;
+    font-size: 60px;
+    margin-left: 113px;
+    margin-top: -33px;
+}
+.liv2{
+    margin-left: 116px;
+    margin-top: -35px;
+}
+.btn-cn button{
+    width: 192.48px;
+    height: 82px;
+    border: none;
+    background: #559F65;
+    margin-left: 117px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+.btn-cn button:hover{
+    color:#559F65;
+    background: #fff;
+}
+.slider{
+    margin-left: 797px;
+    margin-top: -323px;
+}
+/* Слайдер */
+.slick-slider{
+    position: relative;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+}
+.slider .slick-arrow.slick-prev{
+    left: -85px;
+    background: url('../img/Polygon 1.svg');
+    margin-top: -43px;
+    width: 30px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+}
+.slider .slick-arrow.slick-next{
+    right: 62px;
+    background: url('../img/Polygon 2.svg');
+    margin-top: -36px;
+    width: 32px;
+    height: 52px;
+    border: none;
+    cursor: pointer;
+}
+.title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 126px;
+    margin-top: 61px;
+}
+.title span{
+    color: #559F65;
+}
+.content-set{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 194px;
+    margin-left: 121px;
+}
+.gal1{
+    margin-left: 849px; 
+}
+.gal2{
+    margin-left: 591px;
+    margin-top: -508px;
+}
+.gal3{
+    margin-left: 849px;
+    margin-top: -467px;
+}
+footer{
+    height: 88px;
+    width: 1349px;
+    left: 0px;
+    top: 1528px;
+    border-radius: 0px;
+    background: #000;
+}
+.content-foot{
+    margin-top: 284px;
+    color: #fff;
+}
+.content-foot div{
+    display: inline-block;
+    margin-top: 32px;
+}
+.foot1{
+    margin-left: 121px;
+}
+.foot2{
+    margin-left: 740px;
+    font-size: 14px;
+}
